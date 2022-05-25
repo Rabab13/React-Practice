@@ -1,0 +1,42 @@
+.container{
+    margin: auto;
+    width: 80%;
+}
+.nav{
+    overflow: hidden;
+    background-color: darkblue;
+    color: white;
+}
+.logo{
+    color: white;
+    float: left;
+    text-decoration: none;
+    font-size: 35px;
+    display: block;
+    width: 30%;
+    margin: 10px 0;
+}
+ul{
+    width: 70%;
+    float: left;
+    padding:0;
+    text-align:right;
+    color: white;
+    
+} 
+a:-webkit-any-link{
+    color: white;
+    text-decoration: none;
+}
+a:-webkit-any-link.active{
+    color:Red;
+}
+ul li{
+    display:inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+
+}

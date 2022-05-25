@@ -1,0 +1,57 @@
+create React app using Yarn
+
+ yarn create react-app app-name
+ yarn start 
+
+ export default   we can't repeat it also when we call it call the func name without {}
+ function Test(){
+     console.log(text)
+ }
+ export default Test
+ Each file has one export default .
+
+when we imported in App.js [ import Test from "./filename"]
+
+if normal export func name inside {}
+
+setState: //Function to change the state using setState function
+
+Stateful component: is component has class and state / used when u want store data in state
+
+[
+    class Child extends Component {
+
+    state = {
+        name:"Rab",
+        age: 36
+    };
+]
+
+Stateless component: is func has no state and defined through function not class
+[
+    function Child () {}
+
+    or
+
+    const Child = () =>{
+
+    }
+
+]
+class based component  started with class
+
+function component 
+
+ <BrowserRouter>
+      <div className="App">   
+        <Nav/>
+        <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
+
+   * Link vs NavLink 
+
+    NavLink add class active to the link
